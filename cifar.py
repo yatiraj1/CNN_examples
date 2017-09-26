@@ -7,7 +7,7 @@ from scipy.misc import toimage
 for i in range(0, 9):
 	pyplot.subplot(330 + 1 + i)
 	pyplot.imshow(toimage(X_train[i]))
-# show the plot
+# show the plot #
 pyplot.show()
 
 
